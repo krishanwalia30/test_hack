@@ -19,7 +19,7 @@ if uploaded_image:
     image_conv = Image.open(io.BytesIO(bytes_data_image))
 
     # Saving the image to the filepath specified in clApp.filename
-    image_conv.save('input.jpg')
+    image_conv.save('input.png')
 
     # Creating a button for prediction
     if st.button("Find Facilities"):
